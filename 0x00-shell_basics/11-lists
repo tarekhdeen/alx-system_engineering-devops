@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -la .) | (ls -la ..) | (ls -la /boot) | cat
+(ls -l .. | grep -v total; ls -l /boot | grep -v total) | cat
