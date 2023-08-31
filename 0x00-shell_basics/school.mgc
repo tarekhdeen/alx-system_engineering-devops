@@ -1,4 +1,2 @@
 0 string SCHOOL School data file
 file -C -m School.mgc
-echo -n "MAGIC" > sample_School_data
-file -m School.mgc sample_School_data
