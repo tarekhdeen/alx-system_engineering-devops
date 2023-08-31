@@ -1,1 +1,4 @@
-echo '0 string SCHOOL School data file' > school.mgc && file -C -m school.mgc && echo -n "SCHOOL" > sample_school_data && file -m school.mgc sample_school_data
+0 string SCHOOL School data file
+file -C -m School.mgc
+echo -n "MAGIC" > sample_School_data
+file -m School.mgc sample_School_data
