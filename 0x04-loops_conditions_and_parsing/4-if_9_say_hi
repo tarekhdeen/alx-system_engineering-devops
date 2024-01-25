@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times with Hi after 9
+str="Best School"
+num=10
+count=1
+
+while [ $count -le $num ]
+do
+	if [ $count -eq 9 ]; then
+        	echo -e "$str\nHi"
+	else
+		echo "$str"
+	fi
+
+        ((count++))
+done

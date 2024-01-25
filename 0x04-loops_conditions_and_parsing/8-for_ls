@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#This Bash script displays the content of the current directory
+for file in *
+do
+    if [[ ! "$file" =~ ^\. ]]; then
+        name_part=$(echo "$file" | cut -d'-' -f2-)
+
+        echo "$name_part"
+    fi
+done
